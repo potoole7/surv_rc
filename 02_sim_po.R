@@ -1,3 +1,5 @@
+#### Fit PO and Cox to skewed PWE data (w/ PO treatment effect) ####
+
 #### libs ####
 
 library(survival)
@@ -9,7 +11,7 @@ library(parallel)
 library(flexsurv)
 library(pammtools)
 library(patchwork)
-source("code/source.R")
+source("00_source.R")
 
 #### Functions ####
 

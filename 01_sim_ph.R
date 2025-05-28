@@ -1,15 +1,4 @@
-#### Fit Cox and PEM to skewed PWE data ####
-
-# Add simulations for PEM model (PH and PO) (done)
-
-# For report:
-# Fix PO model (or data simulation), not working (done)
-# Plot of "weird" simulation data
-# TODO Simulation results for Cox and PEM under PH assumption
-# TODO Vary times for quantiles, as well as n
-# TODO Simulation results for Cox, PO and PEM under PH assumption
-# TODO Vary t and n
-# TODO Estimate theoretical covariance matrix using what Karim asked for!
+#### Fit Cox and PEM to skewed PWE data (w/ PH treatment effect) ####
 
 #### Libs ####
 
@@ -21,7 +10,7 @@ library(parallel)
 library(splines)
 library(nphsim)
 library(timereg)
-source("code/source.R")
+source("00_source.R")
 
 #### Metadata ####
 
